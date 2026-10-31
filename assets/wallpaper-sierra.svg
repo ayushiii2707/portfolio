@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3f6b"/>
+      <stop offset="0.35" stop-color="#8a6a9a"/>
+      <stop offset="0.6" stop-color="#e59a8c"/>
+      <stop offset="0.8" stop-color="#f6c6a0"/>
+    </linearGradient>
+    <linearGradient id="peak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8794f"/>
+      <stop offset="0.45" stop-color="#a8432f"/>
+      <stop offset="1" stop-color="#3a1d1f"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b9c4d6"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b5d86"/>
+      <stop offset="1" stop-color="#3b3456"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a33"/>
+      <stop offset="1" stop-color="#140f14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.55" r="0.5">
+      <stop offset="0" stop-color="#ffd7a8" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffd7a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#sky)"/>
+  <rect width="1920" height="1200" fill="url(#glow)"/>
+  <path d="M0 760 L220 610 L380 690 L560 560 L760 700 L980 600 L1180 720 L1400 620 L1620 700 L1920 600 L1920 1200 L0 1200Z" fill="url(#far)" opacity="0.85"/>
+  <path d="M-40 1200 L120 760 L260 520 L360 300 L430 180 L520 330 L600 300 L700 520 L820 640 L980 820 L1100 1200Z" fill="url(#peak)"/>
+  <path d="M360 300 L430 180 L520 330 L470 310 L440 380 L410 320 L380 360Z" fill="url(#snow)"/>
+  <path d="M260 520 L300 450 L330 470 L300 520 L280 500Z" fill="url(#snow)" opacity="0.85"/>
+  <path d="M520 330 L600 300 L640 380 L590 360 L560 400Z" fill="url(#snow)" opacity="0.8"/>
+  <path d="M430 180 L470 260 L520 330 L700 520 L820 640 L980 820 L1100 1200 L700 1200 L640 900 L560 700 L500 520Z" fill="#000" opacity="0.28"/>
+  <path d="M0 1200 L0 900 L160 820 L320 900 L520 860 L700 960 L900 900 L1120 980 L1360 900 L1600 960 L1920 880 L1920 1200Z" fill="url(#near)"/>
+</svg>
