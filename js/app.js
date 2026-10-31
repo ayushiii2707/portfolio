@@ -128,7 +128,7 @@
 
   /* ================= preferences ================= */
   const WALLPAPERS = [
-    { id: "skyfall", name: "Skyfall", css: "url(assets/wallpaper.jpg) center/cover, #1c2a4a" },
+    { id: "lake", name: "Lake", css: "url(assets/wallpaper.webp) center/cover, #1f7fd0" },
     { id: "sierra", name: "Sierra", css: "url(assets/wallpaper-sierra.svg) center/cover, #6b4a5a" },
     { id: "sonoma", name: "Sonoma", css: "linear-gradient(170deg, #0e3d4f 0%, #217d74 38%, #9fc7a0 70%, #f0c890 100%)" },
     { id: "ventura", name: "Ventura", css: "radial-gradient(120% 90% at 30% 110%, #ff7a3d 0%, #d6276a 35%, #5a1a8a 65%, #12123a 100%)" },
@@ -138,8 +138,8 @@
     { id: "graphite", name: "Graphite", css: "linear-gradient(135deg, #232526, #414345)" },
   ];
   const ACCENTS = ["#0a84ff", "#bf5af2", "#ff375f", "#ff9f0a", "#ffd60a", "#30d158", "#8e8e93"];
-  const prefs = Object.assign({ theme: "dark", accent: ACCENTS[0], wallpaper: "skyfall", wifi: true, bt: true, brightness: 1, volume: 70 }, store.get("prefs", {}));
-  if (prefs.wpv !== 2) { prefs.wallpaper = "skyfall"; prefs.wpv = 2; } // move existing visitors onto the new default once
+  const prefs = Object.assign({ theme: "dark", accent: ACCENTS[0], wallpaper: "lake", wifi: true, bt: true, brightness: 1, volume: 70 }, store.get("prefs", {}));
+  if (prefs.wpv !== 3) { prefs.wallpaper = "lake"; prefs.wpv = 3; } // move existing visitors onto the new default once
   const savePrefs = () => store.set("prefs", prefs);
   function applyPrefs() {
     const root = document.documentElement;
