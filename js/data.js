@@ -51,7 +51,7 @@ window.NOTES = [
     date: "2026-07-01T12:46",
     image: "assets/photos/about-me.jpg", imageCaption: "ayushi",
     body:
-`hi, i'm ayushi. 21, an engineering student. you can find my career on my linkedin or x — here's a more personal way to introduce myself, in three parts: mind, body, soul.
+`hi, i'm ayushi. 21, and an engineering student. you can find my career on my linkedin or x — here's a more personal way to introduce myself, in three parts: mind, body, soul.
 
 ## mind
 i spend a lot of time in my head — turning over questions and problems, reading about random things, trying to connect dots between topics that don't obviously go together. i don't know everything, far from it. what i think i've picked up is the skill of learning itself: figuring things out and getting up to speed fast.
@@ -142,7 +142,6 @@ a rough list of what it actually taught me:
 - breaking down and solving real problems
 - growing a community from close to nothing
 - taking feedback — and then actually implementing it
-- outreach
 - handling outreach, and finding ways to bring more in
 - dealing with college administration, conflict, and teamwork
 
@@ -289,7 +288,7 @@ and in a world where everyone has access to tools, taste becomes leverage.
 
 ---
 
-i still feel clueless half the time. but compared to the guy who thought his life was over because of an exam, i think i've at least moved forward.
+i still feel clueless half the time. but compared to the girl who thought she had chosen an entirely wrong career path because of some failures, i think i've at least moved forward.
 
 still figuring it out, every single day.
 
